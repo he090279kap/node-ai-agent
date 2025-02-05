@@ -1,16 +1,14 @@
 {
-  "name": "ai-agent",
+  "name": "node-ai-agent",
   "version": "1.0.0",
-  "description": "\"# Node.js AI Agent\"",
+  "description": "AI-бот на Node.js с OpenAI API",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "openai": "^4.83.0"
+    "openai": "^3.3.0",
+    "dotenv": "^16.0.3"
   }
 }
